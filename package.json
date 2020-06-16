@@ -1,6 +1,6 @@
 {
-  "name": "monaco-typescript",
-  "version": "3.7.0",
+  "name": "@uplol/monaco-typescript",
+  "version": "3.9.5",
   "description": "TypeScript and JavaScript language support for Monaco Editor",
   "scripts": {
     "compile-amd": "mcopy ./src/lib/typescriptServices-amd.js ./release/dev/lib/typescriptServices.js && tsc -p ./src/tsconfig.json",
@@ -25,6 +25,6 @@
     "monaco-plugin-helpers": "^1.0.2",
     "requirejs": "^2.3.6",
     "terser": "^4.6.3",
-    "typescript": "^3.8.2"
+    "typescript": "^3.9.5"
   }
 }
